@@ -33,4 +33,4 @@ code{background:var(--line);padding:2px 6px;border-radius:5px}
 .teams{border-top:1px solid var(--line)}
 
 table.moves { border-collapse: collapse; width: 100%; }
-table.moves td { border: 1px solid #5a5a5a; padding: 6px 10px; width: 50%; font-weight: 600; color: white; background-color: var(--black); border-radius: 4px; text-align: left; }
+table.moves td { border: 1px solid #5a5a5a; padding: 6px 10px; width: 50%; font-weight: 600; color: white; background-color: rgb(20, 29, 72); border-radius: 4px; text-align: left; }
