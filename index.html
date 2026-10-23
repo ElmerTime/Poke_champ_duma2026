@@ -5,24 +5,35 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="style.css"></head>
 <body>
-<header><div class="wrap"><h1>Champions Tournament</h1><nav><a href="admin.html">Register players</a></nav></div></header>
-<main class="wrap">
-  <label for="q" class="muted">Search by player name or team ID</label>
-  <input id="q" type="search" placeholder="Type a player name…" autocomplete="off">
-  <p id="count" class="muted"></p>
-  <div id="out"></div>
-</main>
-<script src="app.js"></script>
-<script>
-let players = [];
-const out = document.getElementById("out"), q = document.getElementById("q"), count = document.getElementById("count");
-function show() {
-  const t = q.value.trim().toLowerCase();
-  const list = players.filter(p => !t || p.name.toLowerCase().includes(t) || p.teams.some(x => x.id.toLowerCase().includes(t)));
-  count.textContent = `${list.length} of ${players.length} players`;
-  renderPlayers(list, out, true);
-}
-fetch("data/players.json", { cache: "no-store" }).then(r => r.json()).then(d => { players = d.players || []; show(); })
-  .catch(() => out.innerHTML = '<p class="err">Could not load data/players.json. If you opened this file directly, run a local server instead (see README).</p>');
-q.addEventListener("input", show);
-</script></body></html>
+  <header>
+    <div class="wrap">
+      <!-- <h1>Champions Tournament</h1><nav><a href="admin.html">Register players</a></nav> -->
+       <h1>Pokémon Champions </h1>
+       <h2>Dumaguete Buglasan Tournament</h2>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <label for="q" class="muted">Search by player name or team ID</label>
+    <input id="q" type="search" placeholder="Type a player name…" autocomplete="off">
+    <p id="count" class="muted"></p>
+    <div id="out"></div>
+  </main>
+
+  <script src="app.js"></script>
+
+    <script>
+    let players = [];
+    const out = document.getElementById("out"), q = document.getElementById("q"), count = document.getElementById("count");
+    function show() {
+      const t = q.value.trim().toLowerCase();
+      const list = players.filter(p => !t || p.name.toLowerCase().includes(t) || p.teams.some(x => x.id.toLowerCase().includes(t)));
+      count.textContent = `${list.length} of ${players.length} players`;
+      renderPlayers(list, out, true);
+    }
+    fetch("data/players.json", { cache: "no-store" }).then(r => r.json()).then(d => { players = d.players || []; show(); })
+      .catch(() => out.innerHTML = '<p class="err">Could not load data/players.json. If you opened this file directly, run a local server instead (see README).</p>');
+    q.addEventListener("input", show);
+    </script>
+  </body>
+</html>

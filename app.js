@@ -25,14 +25,20 @@ async function getSprite(nameOrId) {
 
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
-const SILHOUETTE = '<svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true"><path fill="currentColor" d="M32 6c-7 0-12 5-12 12 0 3 1 5 2 7-7 3-12 10-12 18 0 9 6 15 14 15h16c8 0 14-6 14-15 0-8-5-15-12-18 1-2 2-4 2-7 0-7-5-12-12-12z"/><text x="32" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="var(--card)">?</text></svg>';
+// const SILHOUETTE = '<svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true"><path fill="currentColor" d="M32 6c-7 0-12 5-12 12 0 3 1 5 2 7-7 3-12 10-12 18 0 9 6 15 14 15h16c8 0 14-6 14-15 0-8-5-15-12-18 1-2 2-4 2-7 0-7-5-12-12-12z"/><text x="32" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="var(--card)">?</text></svg>';
+const SILHOUETTE = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="24" height="24" role="img" aria-label="Poké Ball"><path d="M5 50a45 45 0 0 1 90 0z" fill="#e53935"/><path d="M5 50a45 45 0 0 0 90 0z" fill="#fff"/><circle cx="50" cy="50" r="45" fill="none" stroke="#222" stroke-width="6"/><line x1="5" y1="50" x2="95" y2="50" stroke="#222" stroke-width="6"/><circle cx="50" cy="50" r="13" fill="#fff" stroke="#222" stroke-width="6"/></svg>';
+
 
 function monHTML(m) {
+  const mv = (m.moves || []).filter(Boolean).slice(0, 4).map(esc);
+  const cell = i => `<td>${mv[i] ?? ""}</td>`;
+  const rows = `<tr>${cell(0)}${cell(1)}</tr><tr>${cell(2)}${cell(3)}</tr>`;
+
   return `<div class="mon"><img data-mon="${esc(m.name)}" alt="${esc(m.name)}" width="96" height="96">
     <strong>${esc(m.name)}</strong>
     <span class="muted">${esc(m.types || "")}</span>
-    <span>${esc(m.ability || "")}${m.item ? " @ " + esc(m.item) : ""}</span>
-    <span class="moves">${(m.moves || []).filter(Boolean).map(esc).join(" · ")}</span></div>`;
+    <span>${esc(m.ability || "")}${m.item ? " @ " + esc(m.item) : ""}</span><br/>
+    <table class="moves">${rows}</table></div>`;
 }
 
 function teamsHTML(p) {
