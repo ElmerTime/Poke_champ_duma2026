@@ -703,6 +703,94 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Jalandoni",
+      "teams": [
+        {
+          "id": "Team 2",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Raichu",
+              "types": "Electric",
+              "ability": "Lightning Rod",
+              "item": "Raichunite Y",
+              "moves": [
+                "Zap Cannon",
+                "Focus Blast",
+                "Fake Out",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Gholdengo",
+              "types": "Steel / Ghost",
+              "ability": "Good as Gold",
+              "item": "Life Orb",
+              "moves": [
+                "Make It Rain",
+                "Protect",
+                "Shadow Ball",
+                "Nasty Plot"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Garchompite Z",
+              "moves": [
+                "Protect",
+                "Power Gem",
+                "Dragon Pulse",
+                "Scorching Sands"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Volcarona",
+              "types": "Bug / Fire",
+              "ability": "Flame Body",
+              "item": "Rocky Helmet",
+              "moves": [
+                "Struggle Bug",
+                "Overheat",
+                "Rage Powder",
+                "Tailwind"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Rillaboom",
+              "types": "Grass",
+              "ability": "Grassy Surge",
+              "item": "Miracle Seed",
+              "moves": [
+                "Wood Hammer",
+                "Fake Out",
+                "U-turn",
+                "Grassy Glide"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Incineroar",
+              "types": "Fire / Dark",
+              "ability": "Intimidate",
+              "item": "Sitrus Berry",
+              "moves": [
+                "Darkest Lariat",
+                "Fire Fang",
+                "Fake Out",
+                "Parting Shot"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
