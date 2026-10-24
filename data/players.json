@@ -1,87 +1,703 @@
 {
   "players": [
     {
-      "name": "Rod",
+      "name": "Gi Fingers",
       "teams": [
         {
-          "id": "K4JMDSJ4TG",
+          "id": "Team 3",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Venusaur",
+              "types": "Grass / Poison",
+              "ability": "Chlorophyll",
+              "item": "Venusaurite",
+              "moves": [
+                "Sludge Bomb",
+                "Giga Drain",
+                "Sleep Powder",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Torkoal",
+              "types": "Fire",
+              "ability": "Drought",
+              "item": "Charcoal",
+              "moves": [
+                "Heat Wave",
+                "Eruption",
+                "Earth Power",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Empoleon",
+              "types": "Water / Steel",
+              "ability": "Competitive",
+              "item": "Leftovers",
+              "moves": [
+                "Protect",
+                "Hydro Pump",
+                "Ice Beam",
+                "Flash Cannon"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Hatterene",
+              "types": "Psychic / Fairy",
+              "ability": "Magic Bounce",
+              "item": "Life Orb",
+              "moves": [
+                "Expanding Force",
+                "Dazzling Gleam",
+                "Trick Room",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Indeedee-Female",
+              "types": "Psychic / Normal",
+              "ability": "Psychic Surge",
+              "item": "Psychic Seed",
+              "moves": [
+                "Follow Me",
+                "Helping Hand",
+                "Trick Room",
+                "Light Screen"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Gallade",
+              "types": "Psychic / Fighting",
+              "ability": "Sharpness",
+              "item": "Galladite",
+              "moves": [
+                "Psycho Cut",
+                "Sacred Sword",
+                "Wide Guard",
+                "Trick Room"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumizxc",
+      "teams": [
+        {
+          "id": "2",
           "pokemon": [
             {
               "slot": 1,
               "name": "Charizard",
               "types": "Fire / Flying",
               "ability": "Blaze",
-              "item": "Charizardite X",
+              "item": "Charizardite Y",
               "moves": [
-                "Flare Blitz",
-                "Dragon Claw",
-                "Protect",
-                "Dragon Dance"
+                "Heat Wave",
+                "Scorching Sands",
+                "Solar Beam",
+                "Protect"
               ]
             },
             {
               "slot": 2,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Choice Scarf",
+              "moves": [
+                "Stomping Tantrum",
+                "Earthquake",
+                "Dragon Claw",
+                "Rock Slide"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Farigiraf",
+              "types": "Normal / Psychic",
+              "ability": "Armor Tail",
+              "item": "Sitrus Berry",
+              "moves": [
+                "Trick Room",
+                "Hyper Voice",
+                "Psychic Noise",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Sneasler",
+              "types": "Fighting / Poison",
+              "ability": "Unburden",
+              "item": "White Herb",
+              "moves": [
+                "Fake Out",
+                "Protect",
+                "Dire Claw",
+                "Close Combat"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Sylveon",
+              "types": "Fairy",
+              "ability": "Pixilate",
+              "item": "Leftovers",
+              "moves": [
+                "Hyper Voice",
+                "Yawn",
+                "Protect",
+                "Mystical Fire"
+              ]
+            },
+            {
+              "slot": 6,
               "name": "Kingambit",
               "types": "Dark / Steel",
               "ability": "Defiant",
-              "item": "Chople Berry",
+              "item": "Focus Sash",
               "moves": [
                 "Kowtow Cleave",
                 "Iron Head",
                 "Sucker Punch",
                 "Protect"
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ying",
+      "teams": [
+        {
+          "id": "N/A",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Garchompite Z",
+              "moves": [
+                "Earth Power",
+                "Draco Meteor",
+                "Power Gem",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Politoed",
+              "types": "Water",
+              "ability": "Drizzle",
+              "item": "Sitrus Berry",
+              "moves": [
+                "Weather Ball",
+                "Perish Song",
+                "Encore",
+                "Protect"
+              ]
             },
             {
               "slot": 3,
-              "name": "Rotom (Wash)",
-              "types": "Electric / Water",
-              "ability": "Levitate",
-              "item": "Sitrus Berry",
+              "name": "Gengar",
+              "types": "Ghost / Poison",
+              "ability": "Cursed Body",
+              "item": "Gengarite",
               "moves": [
-                "Hydro Pump",
-                "Thunderbolt",
-                "Will-O-Wisp",
-                "Volt Switch"
+                "Sludge Bomb",
+                "Shadow Ball",
+                "Perish Song",
+                "Protect"
               ]
             },
             {
               "slot": 4,
-              "name": "Sinistcha",
-              "types": "Grass / Ghost",
-              "ability": "Hospitality",
-              "item": "Kasib Berry",
+              "name": "Incineroar",
+              "types": "Fire / Dark",
+              "ability": "Intimidate",
+              "item": "Leftovers",
               "moves": [
-                "Matcha Gotcha",
-                "Rage Powder",
-                "Life Dew",
-                "Trick Room"
+                "Fake Out",
+                "Flare Blitz",
+                "Parting Shot",
+                "Protect"
               ]
             },
             {
               "slot": 5,
-              "name": "Sneasler",
-              "types": "Fighting / Poison",
-              "ability": "Unburden",
-              "item": "White Herb",
+              "name": "Rillaboom",
+              "types": "Grass",
+              "ability": "Grassy Surge",
+              "item": "Miracle Seed",
               "moves": [
-                "Dire Claw",
-                "Close Combat",
-                "Protect",
-                "Fake Out"
+                "Fake Out",
+                "Grassy Glide",
+                "U-turn",
+                "Protect"
               ]
             },
             {
               "slot": 6,
-              "name": "Ninetales (Alola)",
-              "types": "Ice / Fairy",
-              "ability": "Snow Warning",
+              "name": "Vivillon",
+              "types": "Bug / Flying",
+              "ability": "Compound Eyes",
               "item": "Focus Sash",
               "moves": [
-                "Freeze-Dry",
-                "Blizzard",
+                "Hurricane",
+                "Rage Powder",
+                "Sleep Powder",
+                "Protect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trenchy",
+      "teams": [
+        {
+          "id": "Team 1",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Charizard",
+              "types": "Fire / Flying",
+              "ability": "Blaze",
+              "item": "Charizardite Y",
+              "moves": [
+                "Flamethrower",
+                "Hurricane",
+                "Sunny Day",
+                "Weather Ball"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Sand Veil",
+              "item": "Lum Berry",
+              "moves": [
+                "Earthquake",
+                "Liquidation",
+                "Thunder Fang",
+                "Poison Jab"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Raichu",
+              "types": "Electric",
+              "ability": "Lightning Rod",
+              "item": "Raichunite Y",
+              "moves": [
+                "Volt Tackle",
+                "Play Rough",
+                "Drain Punch",
+                "Trailblaze"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Dragonite",
+              "types": "Dragon / Flying",
+              "ability": "Multiscale",
+              "item": "Sitrus Berry",
+              "moves": [
+                "Draco Meteor",
+                "Fire Blast",
+                "Ice Beam",
+                "Extreme Speed"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Aegislash-Blade",
+              "types": "Steel / Ghost",
+              "ability": "Stance Change",
+              "item": "White Herb",
+              "moves": [
+                "Iron Head",
+                "King's Shield",
+                "Reversal",
+                "Flash Cannon"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Hippowdon",
+              "types": "Ground",
+              "ability": "Sand Force",
+              "item": "Leftovers",
+              "moves": [
+                "Earthquake",
+                "Crunch",
+                "Stomping Tantrum",
+                "Whirlwind"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nookiee",
+      "teams": [
+        {
+          "id": "Team 1",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Choice Scarf",
+              "moves": [
+                "Dragon Claw",
+                "Stomping Tantrum",
+                "Rock Slide",
+                "Earthquake"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Charizard",
+              "types": "Fire / Flying",
+              "ability": "Solar Power",
+              "item": "Charizardite Y",
+              "moves": [
+                "Heat Wave",
+                "Solar Beam",
+                "Weather Ball",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Staraptor",
+              "types": "Normal / Flying",
+              "ability": "Intimidate",
+              "item": "Staraptite",
+              "moves": [
+                "Close Combat",
+                "Brave Bird",
+                "Roost",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Glimmora",
+              "types": "Rock / Poison",
+              "ability": "Toxic Debris",
+              "item": "Life Orb",
+              "moves": [
+                "Sludge Bomb",
+                "Power Gem",
+                "Earth Power",
+                "Spiky Shield"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Whimsicott",
+              "types": "Grass / Fairy",
+              "ability": "Prankster",
+              "item": "Occa Berry",
+              "moves": [
+                "Moonblast",
+                "Tailwind",
+                "Encore",
+                "Charm"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Indeedee-Male",
+              "types": "Psychic / Normal",
+              "ability": "Psychic Surge",
+              "item": "Focus Sash",
+              "moves": [
+                "Expanding Force",
+                "Hyper Voice",
+                "Imprison",
+                "Trick Room"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PlayerDEF",
+      "teams": [
+        {
+          "id": "Team 2",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Gardevoir",
+              "types": "Psychic / Fairy",
+              "ability": "Trace",
+              "item": "Gardevoirite",
+              "moves": [
+                "Hyper Voice",
+                "Moonblast",
+                "Expanding Force",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Indeedee-Female",
+              "types": "Psychic / Normal",
+              "ability": "Psychic Surge",
+              "item": "Psychic Seed",
+              "moves": [
+                "Imprison",
+                "Follow Me",
+                "Trick Room",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Armarouge",
+              "types": "Fire / Psychic",
+              "ability": "Flash Fire",
+              "item": "Focus Sash",
+              "moves": [
+                "Armor Cannon",
+                "Trick Room",
                 "Protect",
-                "Aurora Veil"
+                "Expanding Force"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Golisopod",
+              "types": "Bug / Water",
+              "ability": "Emergency Exit",
+              "item": "Golisopite",
+              "moves": [
+                "Sucker Punch",
+                "Leech Life",
+                "Iron Head",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Salamence",
+              "types": "Dragon / Flying",
+              "ability": "Intimidate",
+              "item": "Rocky Helmet",
+              "moves": [
+                "Sunny Day",
+                "Draco Meteor",
+                "Flamethrower",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Volcarona",
+              "types": "Bug / Fire",
+              "ability": "Flame Body",
+              "item": "Choice Scarf",
+              "moves": [
+                "Heat Wave",
+                "Struggle Bug",
+                "Rage Powder",
+                "U-turn"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZenFaceless",
+      "teams": [
+        {
+          "id": "N/A",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Rillaboom",
+              "types": "Grass",
+              "ability": "Grassy Surge",
+              "item": "Miracle Seed",
+              "moves": [
+                "U-turn",
+                "Fake Out",
+                "Wood Hammer",
+                "Grassy Glide"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Garchompite Z",
+              "moves": [
+                "Protect",
+                "Flamethrower",
+                "Dragon Pulse",
+                "Earth Power"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Gholdengo",
+              "types": "Steel / Ghost",
+              "ability": "Good as Gold",
+              "item": "Life Orb",
+              "moves": [
+                "Make It Rain",
+                "Nasty Plot",
+                "Shadow Ball",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Raichu",
+              "types": "Electric",
+              "ability": "Lightning Rod",
+              "item": "Raichunite Y",
+              "moves": [
+                "Fake Out",
+                "Zap Cannon",
+                "Focus Blast",
+                "Protect"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Incineroar",
+              "types": "Fire / Dark",
+              "ability": "Intimidate",
+              "item": "Sitrus Berry",
+              "moves": [
+                "Fake Out",
+                "Flare Blitz",
+                "Parting Shot",
+                "Throat Chop"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Volcarona",
+              "types": "Bug / Fire",
+              "ability": "Swarm",
+              "item": "Rocky Helmet",
+              "moves": [
+                "Fiery Dance",
+                "Bug Bite",
+                "Hurricane",
+                "Struggle Bug"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H2Woah",
+      "teams": [
+        {
+          "id": "Team 4",
+          "pokemon": [
+            {
+              "slot": 1,
+              "name": "Rillaboom",
+              "types": "Grass",
+              "ability": "Grassy Surge",
+              "item": "Miracle Seed",
+              "moves": [
+                "Grassy Glide",
+                "U-turn",
+                "Fake Out",
+                "Wood Hammer"
+              ]
+            },
+            {
+              "slot": 2,
+              "name": "Raichu",
+              "types": "Electric",
+              "ability": "Lightning Rod",
+              "item": "Raichunite Y",
+              "moves": [
+                "Protect",
+                "Zap Cannon",
+                "Focus Blast",
+                "Encore"
+              ]
+            },
+            {
+              "slot": 3,
+              "name": "Kingambit",
+              "types": "Dark / Steel",
+              "ability": "Defiant",
+              "item": "Life Orb",
+              "moves": [
+                "Protect",
+                "Iron Head",
+                "Sucker Punch",
+                "Kowtow Cleave"
+              ]
+            },
+            {
+              "slot": 4,
+              "name": "Volcarona",
+              "types": "Bug / Fire",
+              "ability": "Flame Body",
+              "item": "Charti Berry",
+              "moves": [
+                "Fiery Dance",
+                "Struggle Bug",
+                "Tailwind",
+                "Rage Powder"
+              ]
+            },
+            {
+              "slot": 5,
+              "name": "Floette",
+              "types": "Fairy",
+              "ability": "Flower Veil",
+              "item": "Floettite",
+              "moves": [
+                "Protect",
+                "Calm Mind",
+                "Dazzling Gleam",
+                "Moonblast"
+              ]
+            },
+            {
+              "slot": 6,
+              "name": "Garchomp",
+              "types": "Dragon / Ground",
+              "ability": "Rough Skin",
+              "item": "Choice Scarf",
+              "moves": [
+                "Brick Break",
+                "Stomping Tantrum",
+                "Dragon Claw",
+                "Rock Slide"
               ]
             }
           ]
